@@ -1,0 +1,115 @@
+body{
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+section{
+height: 500px;
+width: 100%;
+margin-bottom: 50px;
+}
+h2{
+    color: indianred ;
+    color: deeppink;
+}
+p{
+    color: grey;
+    margin-bottom: 50px;
+}
+.flexible-container{
+    display: flex;
+}
+
+.top{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+ 
+
+}
+.half-width{
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 40px 40px ;
+    margin: 20px 20px;
+    border: 5px;
+    border-color: blue;
+    
+}
+
+.half-width img{
+    width: 90%;
+    height: 80%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, deeppink ,indianred   );
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: aliceblue;
+
+
+}
+.middle{
+    
+    background-repeat: no-repeat;
+    background-image: url(image/biography-bg.png);
+    
+
+}
+.bottom{
+    background-repeat: no-repeat;
+    background-image: url(image/latest-work-bg.png);
+    
+}
+
+.color-black{
+    color:black;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}  
+
+.d-1 img{
+    width: 80%;
+}
+
+.b-1{
+margin-left: 70px;
+}
+
+.footer{
+    background-repeat: no-repeat;
+    background-image: url(image/footer-bg.png);
+}
+
+.margin{
+
+    margin-top: 60px;
+}
+.f-1{
+    height: 30%;
+    width: 50%;
+  
+    background-color: #d8589f;
+margin-left: 25%;
+border-radius: 10px;
+}
+.color-white{
+    color: white;
+}
+.pp{
+    padding-top: 30px;
+}
+.f-2{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    
+}
